@@ -1,4 +1,5 @@
 describe 'Backer - ::new' do
+  # Backer.new
   it 'takes a name on initialization' do
     backer = Backer.new("Avi")
     expect(backer.name).to eq("Avi")
